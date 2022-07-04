@@ -1,0 +1,37 @@
+[
+  {
+    "date": "17 Nov",
+    "name": "Surya",
+    "post": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    "userProfile": "./assets/userImage.jpg",
+    "postImage": "./assets/post.jpg"
+  },
+  {
+    "date": "17 Nov",
+    "name": "Surya",
+    "post": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    "userProfile": "./assets/userImage.jpg",
+    "postImage": "./assets/post.jpg"
+  },
+  {
+    "date": "17 Nov",
+    "name": "Surya",
+    "post": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    "userProfile": "./assets/userImage.jpg",
+    "postImage": "./assets/post.jpg"
+  },
+  {
+    "date": "17 Nov",
+    "name": "Surya",
+    "post": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    "userProfile": "./assets/userImage.jpg",
+    "postImage": "./assets/post.jpg"
+  },
+  {
+    "date": "17 Nov",
+    "name": "Surya",
+    "post": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    "userProfile": "./assets/userImage.jpg",
+    "postImage": "./assets/post.jpg"
+  }
+]
