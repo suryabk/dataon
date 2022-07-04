@@ -1,11 +1,11 @@
+import "./App.css";
 import Button from "./component/Button";
 import Card from "./component/Card";
 import data from "./data.json";
-console.log(data);
 
 function App() {
   return (
-    <div className="App" style={{ position: "relative" }}>
+    <div className="App">
       <Card dataUser={data} />
       <Button />
     </div>

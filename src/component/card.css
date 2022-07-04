@@ -9,6 +9,14 @@
   justify-content: center;
 }
 
+.title {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
 .container-card {
   width: 100%;
   padding: 1rem;
