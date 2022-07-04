@@ -15,14 +15,18 @@ function Card({ dataUser }) {
                 : { flexDirection: "row" }
             }>
             <div className="content">
-              <div className="profile">
-                <p className="date">{user.date}</p>
-                <h3 className="user-name">{user.name}</h3>
-                <img
-                  className="user-image"
-                  src="./assets/userImage.jpg"
-                  alt=""
-                />
+              <div
+                className="profile"
+                style={
+                  idx % 2
+                    ? { flexDirection: "row" }
+                    : { flexDirection: "row-reverse" }
+                }>
+                <div className="profile-text">
+                  <p className="date">{user.date}</p>
+                  <h3 className="user-name">{user.name}</h3>
+                </div>
+                <img className="user-image" src={user.userProfile} alt="" />
               </div>
               <p className="comment">{user.post}</p>
             </div>

@@ -36,22 +36,24 @@
 }
 
 .profile {
-  display: grid;
-  grid-template-columns: repeat(1, auto);
-  grid-template-rows: repeat(2, 1rem);
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
-  column-gap: 8px;
-  margin-bottom: 1rem;
+}
+
+.profile-text {
+  display: flex;
+  flex-direction: column;
 }
 
 .content {
-  width: 50%;
+  width: 60%;
 }
 
 .user-image {
   width: 36px;
   height: 36px;
-  grid-column-start: 2;
 }
 
 .post-image {
@@ -69,8 +71,6 @@
 
 .user-name {
   color: var(--text-grey);
-  grid-row-start: 2;
-  grid-column-start: 1;
 }
 
 .comment {
